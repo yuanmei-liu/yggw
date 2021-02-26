@@ -1,0 +1,262 @@
+.header {
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.header img {
+    float: left;
+}
+
+.header .ts {
+    margin-top: 46px;
+    float: right;
+}
+
+.header .ts a {
+    color: cornflowerblue;
+}
+
+
+/* 注册 */
+
+.reg {
+    width: 100%;
+    height: 680px;
+    text-align: center;
+    background: url("../img/register_bg.png");
+    overflow: hidden;
+}
+
+.reg .con {
+    width: 860px;
+    height: 560px;
+    margin: 0px auto;
+    border: solid 1px #CCC;
+    background-color: #cfcecf;
+    padding: 15px;
+    margin: 60px auto;
+}
+
+.reg .con .ma {
+    width: 860px;
+    height: 560px;
+    background: #ffffff;
+}
+
+.reg .conl {
+    position: relative;
+    float: left;
+    width: 550px;
+    text-align: center;
+}
+
+.reg .conl button {
+    width: 380px;
+    height: 30px;
+    border: none;
+    background: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+.conl dl {
+    position: relative;
+}
+
+.reg .conl .warn {
+    position: absolute;
+    left: 8px;
+    top: 51px;
+    color: #cf2626;
+    font-size: 14px;
+}
+
+.reg .conl .success {
+    position: absolute;
+    left: 8px;
+    top: 51px;
+    color: #038846;
+    font-size: 14px;
+}
+
+.p1 {
+    /* display: none; */
+    position: absolute;
+    left: 8px;
+    top: 51px;
+}
+
+.p2,
+.p3 {
+    /* display: none; */
+    position: absolute;
+    left: 6px;
+    top: 49px;
+}
+
+.reg .conl p {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #bbb2b2;
+}
+
+.reg .conl dl {
+    width: 460px;
+    border: solid 1px #E6E6E6;
+    border-radius: 4px;
+    height: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    line-height: 60px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.reg .conl dt {
+    float: left;
+}
+
+.reg .conl dd {
+    float: left;
+}
+
+.reg .conl dd input {
+    box-sizing: border-box;
+    width: 300px;
+    border: none;
+    height: 40px;
+    padding: 10px 30px;
+}
+
+.reg .conl>a {
+    display: inline-block;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid green;
+}
+
+.reg .conl>a i {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/slider-click.png") no-repeat;
+}
+
+.reg .conl .xy {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.reg .conl .xy a {
+    color: red;
+}
+
+.reg .conl .xy .hid {
+    color: #1d1818;
+    position: fixed;
+    display: none;
+    top: 0px;
+    left: 25%;
+    background: #fff;
+    width: 750px;
+    height: 400px;
+    border: 1px solid rgba(245, 238, 238, 0.952);
+    padding: 40px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.reg .conl .xy .hid h4 {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.reg .conl .xy .hid a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.reg .conr {
+    margin-top: 20px;
+    height: 80%;
+    float: right;
+    width: 300px;
+    border-left: 1px solid #bbb2b2;
+}
+
+.reg .conr p {
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+
+.reg .conr p span {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.reg .conr i {
+    display: inline-block;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background: url("../img/login_pic.png") no-repeat 0px -78px;
+}
+
+.reg .conr p:nth-child(1) {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.reg .conr p:nth-child(2) {
+    font-size: 14px;
+}
+
+.reg .conr p:nth-child(3) {
+    font-size: 14px;
+}
+
+.reg .conr p:nth-child(3) i {
+    background-position: -30px -78px;
+}
+
+.reg .conr p:nth-child(4) {
+    font-size: 14px;
+}
+
+.reg .conr p:nth-child(4) i {
+    background-position: -60px -78px;
+}
+
+.reg .conr p:nth-child(5) {
+    font-size: 14px;
+}
+
+.reg .conr p:nth-child(5) i {
+    background-position: -90px -78px;
+}
+
+.reg .conr p:nth-child(6) {
+    font-size: 14px;
+}
+
+.reg .conr p:nth-child(6) i {
+    background-position: -120px -78px;
+}

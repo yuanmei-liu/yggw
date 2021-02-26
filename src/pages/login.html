@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>央广购物-登录</title>
+    <link rel="stylesheet" href="../favicon.ico">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="header w">
+        <h1>
+            <a href="./index.html"> <img src="../img/logo.png" alt=""></a>
+            <span>欢迎登录</span>
+        </h1>
+    </div>
+    <!-- 提示框 -->
+    <div class="tips">
+        <i></i>
+        <span>为确保您账户的安全及正常使用，依《网络安全法》相关要求，会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</span>
+    </div>
+    <!-- 登录框 -->
+    <div class="load">
+        <div class="content w">
+            <div class="login">
+                <p>
+                    <a href="javascript:;" class="now ">用户名登录</a>
+                    <a href="javascript:;">手机动态码登录</a>
+                </p>
+                <!-- 两个页面,谁显示谁就有这个id -->
+                <form class="login-l logg">
+                    <div class="frame1">
+                        <i></i>
+                        <input type="text" name="uname" class="account">
+                    </div>
+                    <span class="warn">
+                            <!-- 提示账号不对 -->
+                            账号必须是字母开头,且由数字字母下划线组成,长度6-12位
+                    </span>
+                    <div class="frame2 ">
+                        <i></i>
+                        <input type="password" name="upwd">
+                    </div>
+                    <!-- 七天免登录 -->
+                    <div class="seven">
+                        <input type="checkbox" checked='checked'>&nbsp;&nbsp;七天免登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span>忘记密码</span>
+                    </div>
+                    <a href="javascript:;" class="dl">
+                        <i></i><button type="submit"> 登录</button>
+                    </a>
+                    <ul class="last">
+                        <li>
+                            <i class="wchat"></i><a href="javascript:;">微信</a>
+                        </li>
+                        <li>
+                            <i class="wchat"></i><a href="./register.html">立即注册</a>
+                        </li>
+                    </ul>
+                </form>
+                <form class="login-r">
+                    <div class="frame3">
+                        <i></i>
+                        <input type="text" name="" placeholder="输入手机号">
+                    </div>
+                    <a href="javascript:;" class="dl">
+                        <i></i> 点击发送验证码
+                    </a>
+                    <div class="frame4">
+                        <i></i>
+                        <input type="text" name="" placeholder="输入验证码">
+                    </div>
+                    <input type="submit" value="登录" disabled='disabled'>
+                    <ul class="last">
+                        <li>
+                            <i class="wchat"></i>微信
+                        </li>
+                        <li>
+                            <a href="./register.html"> <i class="wchat"></i>立即注册</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 公用footer -->
+    <div class="footer">
+        <div class="w">
+            <p>
+                <a href="javascript:;">首页</a>|
+                <a href="javascript:;">招商合作</a>|
+                <a href="javascript:;">关于央广购物</a>|
+                <a href="javascript:;">联系我们</a>|
+                <a href="javascript:;">成为供应商</a>
+            </p>
+            <p>
+                <a href="javascript:;">京公网安备：11011502003547</a>
+                <span> 京食药网食备：202010051号 &nbsp; </span>
+                <span>京ICP备：19000295号  &nbsp;</span>
+                <span>食品流通许可证编号：SP1101151210063489  &nbsp;</span>
+                <span> 信息网络传播视听节目许可证：0102002号  &nbsp;</span>
+                <span>营业执照</span>
+            </p>
+            <p>央广小品科技(北京)有限公司</p>
+            <p> Copyright©2010-2020 cnrmall.com All Rights Reserved &nbsp;&nbsp; 服务热线：4008-518-518</p>
+
+            <ul class="footer_img">
+                <li>
+                    <a href="javascript:;" class="img01"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="img02"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="img03"></a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="img04"></a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

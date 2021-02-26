@@ -1,0 +1,1 @@
+$(function(){var o=0;$(".next").on("click",function(){console.log(o),4<=++o?o=3:$(".goods").animate({left:-$(".skill-text").width()*o},500)}),$(".prev").on("click",function(){--o<0?o=0:(console.log(o),$(".goods").animate({left:-$(".skill-text").width()*o},500))})});

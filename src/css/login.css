@@ -1,0 +1,236 @@
+.header {
+    height: 80px;
+    border-bottom: solid 2px #F5F5F5;
+}
+
+.header h1 {
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 350px;
+}
+
+.header span {
+    display: block;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333;
+}
+
+.tips {
+    background: #fff8f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/* 登录框 */
+
+.load {
+    background: #e93854;
+    margin-bottom: 120px;
+}
+
+.load .content {
+    width: 1000px;
+    height: 480px;
+    background: url("../img/login_img.jpg");
+}
+
+.load .content .login {
+    margin-top: 10px;
+    width: 346px;
+    float: right;
+    background: #fff;
+    position: relative;
+}
+
+.load .content .login p {
+    height: 40px;
+    line-height: 40px;
+}
+
+.load .content .login p a {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.load .content .login p .now {
+    color: #E4393C;
+    font-weight: 700;
+}
+
+.load .content .login p a:hover {
+    color: #E4393C;
+}
+
+.load .content .login .frame1,
+.load .content .login .frame2,
+.load .content .login .frame3,
+.load .content .login .frame4 {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 304px;
+    height: 38px;
+    border: 1px solid #bdbdbd;
+}
+
+.load .content .login .frame1 i,
+.load .content .login .frame2 i,
+.load .content .login .frame3 i,
+.load .content .login .frame4 i {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: url("../img/login_bg.png") no-repeat 0px -158px;
+}
+
+.load .content .login .frame1 input,
+.load .content .login .frame2 input,
+.load .content .login .frame3 input,
+.load .content .login .frame4 input {
+    display: inline-block;
+    vertical-align: top;
+    height: 34px;
+    border: none;
+    outline-style: none;
+}
+
+.load .content .login .dl {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    width: 290px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid green;
+    margin-bottom: 40px;
+}
+
+.load .content .login .dl i {
+    vertical-align: middle;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/slider-click.png") no-repeat;
+}
+
+.load .content .login #exhibit {
+    display: block;
+}
+
+.load .content .login button {
+    width: 230px;
+    height: 30px;
+    border: none;
+    background: #fff;
+    font-size: 18px;
+    outline: none;
+}
+
+.load .content .login .login-l {
+    text-align: center;
+    background: #fff;
+    width: 346px;
+    /* top: 40px;
+    left: 0px; */
+    /* display: none; */
+}
+
+.load .content .login .login-l .warn {
+    display: none;
+    color: #cf2626;
+    font-size: 14px;
+}
+
+.load .content .login .login-l .frame2 {
+    margin-bottom: 20px;
+}
+
+.load .content .login .login-l .frame2 i {
+    background: url("../img/login_bg.png") no-repeat -48px -158px;
+}
+
+.load .content .login .login-l .seven {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.load .content .login .login-l .seven input {
+    vertical-align: top;
+}
+
+.load .content .login .last {
+    font-size: 14px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
+
+.load .content .login .last li:nth-child(1) {
+    float: left;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+.load .content .login .last li:nth-child(2) {
+    float: right;
+}
+
+.load .content .login .last li:nth-child(2) .wchat {
+    background-position: -180px -250px;
+}
+
+.load .content .login .last .wchat {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: url("../img/login_bg.png") no-repeat -120px -250px;
+}
+
+.load .content .login .login-r {
+    /* position: relative;
+    top: 40px;
+    left: 0px; */
+    width: 346px;
+    text-align: center;
+    background: #fff;
+    display: none;
+}
+
+.load .content .login .login-r .dl {
+    margin-bottom: 0px;
+}
+
+.load .content .login .login-r .frame3 i {
+    background-position: -145px -158px;
+}
+
+.load .content .login .login-r .frame4 i {
+    background-position: -192px -158px;
+}
+
+.load .content .login .login-r>input {
+    font-size: 16px;
+    width: 304px;
+    height: 40px;
+    color: #fff;
+    background: #e4393c;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    outline-style: none;
+    border: none;
+}

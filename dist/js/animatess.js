@@ -1,0 +1,1 @@
+function animatess(e,f,a){clearInterval(e.timer),e.timer=setInterval(function(){var t=0<(t=(f-e.offsetLeft)/10)?Math.ceil(t):Math.floor(t);e.offsetLeft==f&&(clearInterval(e.timer),a&&a()),e.style.left=e.offsetLeft+t+"px"},15)}
